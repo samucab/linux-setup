@@ -1,0 +1,7 @@
+[
+  {
+    "key": "ctrl+shift+v",
+    "command": "pasteAndIndent.action",
+    "when": "editorTextFocus && !editorReadonly"
+  }
+]
