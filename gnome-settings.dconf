@@ -32,7 +32,7 @@ word-size=64
 size=(1039, 585)
 
 [org/gnome/control-center]
-last-panel='desktop-main'
+last-panel='bluetooth'
 
 [org/gnome/desktop/app-folders]
 folder-children=['Pop-Office', 'Pop-System', 'Pop-Utility']
@@ -179,7 +179,7 @@ night-light-enabled=true
 night-light-schedule-automatic=false
 night-light-schedule-from=12.0
 night-light-schedule-to=12.0
-night-light-temperature=uint32 3700
+night-light-temperature=uint32 3996
 
 [org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/PopLaunch1]
 binding='Launch1'
@@ -193,7 +193,7 @@ sleep-inactive-battery-timeout=1800
 sleep-inactive-battery-type='nothing'
 
 [org/gnome/shell]
-app-picker-layout=[{'Pop-Office': <{'position': <0>}>, 'Pop-System': <{'position': <1>}>, 'Pop-Utility': <{'position': <2>}>, 'gnumeric.desktop': <{'position': <3>}>, 'org.qgis.qgis.desktop': <{'position': <4>}>, 'google-earth-pro.desktop': <{'position': <5>}>, 'simple-scan.desktop': <{'position': <6>}>}]
+app-picker-layout=[{'Pop-Office': <{'position': <0>}>, 'Pop-System': <{'position': <1>}>, 'Pop-Utility': <{'position': <2>}>, 'simple-scan.desktop': <{'position': <3>}>}]
 favorite-apps=['firefox.desktop', 'org.gnome.Nautilus.desktop', 'gnome-system-monitor.desktop', 'org.gnome.Terminal.desktop', 'code.desktop', 'simplenote.desktop', 'org.gnome.gedit.desktop', 'org.gnome.Characters.desktop', 'org.gnome.Calculator.desktop', 'gnome-control-center.desktop', 'pop-cosmic-applications.desktop']
 welcome-dialog-last-shown-version='42.9'
 
@@ -236,22 +236,22 @@ bold-color-same-as-fg=true
 bold-is-bright=false
 cursor-colors-set=false
 font='Fira Mono 14'
-foreground-color='rgb(208,207,204)'
+foreground-color='rgb(231,231,231)'
 highlight-colors-set=false
-palette=['rgb(7,54,66)', 'rgb(220,50,47)', 'rgb(133,153,0)', 'rgb(181,137,0)', 'rgb(38,139,210)', 'rgb(211,54,130)', 'rgb(42,161,152)', 'rgb(238,232,213)', 'rgb(0,43,54)', 'rgb(203,75,22)', 'rgb(88,110,117)', 'rgb(101,123,131)', 'rgb(131,148,150)', 'rgb(108,113,196)', 'rgb(147,161,161)', 'rgb(253,246,227)']
+palette=['rgb(7,54,66)', 'rgb(220,50,47)', 'rgb(0,186,0)', 'rgb(181,137,0)', 'rgb(38,139,210)', 'rgb(211,54,130)', 'rgb(42,161,152)', 'rgb(238,232,213)', 'rgb(0,43,54)', 'rgb(203,75,22)', 'rgb(88,110,117)', 'rgb(101,123,131)', 'rgb(131,148,150)', 'rgb(108,113,196)', 'rgb(147,161,161)', 'rgb(253,246,227)']
 use-theme-colors=false
 use-theme-transparency=false
 use-transparent-background=true
 
 [org/gtk/settings/color-chooser]
-custom-colors=[(0.86274509803921573, 0.19607843137254902, 0.18431372549019609, 1.0), (0.027450980392156862, 0.21176470588235294, 0.25882352941176473, 1.0), (0.81568627450980391, 0.81176470588235294, 0.80000000000000004, 1.0), (0.63921568627450964, 0.27843137254901956, 0.72941176470588232, 1.0), (0.63921568627450975, 0.27843137254901962, 0.72941176470588232, 1.0), (0.20958974358974367, 0.071466666666666678, 0.67000000000000004, 1.0), (0.090196078431372548, 0.078431372549019607, 0.12941176470588237, 1.0)]
-selected-color=(true, 0.86274509803921573, 0.19607843137254902, 0.18431372549019609, 1.0)
+custom-colors=[(0.0, 0.73000000000000009, 0.0, 1.0), (0.0, 0.68000000000000005, 0.0, 1.0), (0.0, 0.80392156862745101, 0.0, 1.0), (0.52156862745098043, 0.59999999999999998, 0.0, 1.0), (0.90666666666666673, 0.90666666666666673, 0.90666666666666673, 1.0), (0.86274509803921573, 0.19607843137254902, 0.18431372549019609, 1.0), (0.027450980392156862, 0.21176470588235294, 0.25882352941176473, 1.0), (0.81568627450980391, 0.81176470588235294, 0.80000000000000004, 1.0)]
+selected-color=(true, 0.0, 0.73000000000000009, 0.0, 1.0)
 
 [org/gtk/settings/file-chooser]
 clock-format='24h'
 date-format='regular'
 location-mode='path-bar'
-show-hidden=false
+show-hidden=true
 show-size-column=true
 show-type-column=true
 sidebar-width=175
